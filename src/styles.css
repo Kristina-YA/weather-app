@@ -51,7 +51,7 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background-image: url("https://media.istockphoto.com/id/835370890/pl/zdj%C4%99cie/zach%C3%B3d-wsch%C3%B3d-s%C5%82o%C5%84ca-z-chmurami-promieniami-%C5%9Bwietlnymi-i-innymi-efektami-atmosferycznymi.jpg?s=612x612&w=0&k=20&c=E59Q74mJlGb97fArUKwfwqLV56-88APDVNZb9c7QHGs=");
+  background-image: url("/images/background.jpg");
   background-size: cover;
 }
 .date {
