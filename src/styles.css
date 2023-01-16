@@ -1,0 +1,110 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  color: rgb(51, 0, 255);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+  color: rgb(65, 60, 60);
+  text-transform: capitalize;
+}
+h3::first-letter {
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+
+#app {
+  max-width: 700px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 40px auto;
+}
+#descr {
+  text-transform: capitalize;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: rgb(68, 67, 67);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  background-image: url("https://media.istockphoto.com/id/835370890/pl/zdj%C4%99cie/zach%C3%B3d-wsch%C3%B3d-s%C5%82o%C5%84ca-z-chmurami-promieniami-%C5%9Bwietlnymi-i-innymi-efektami-atmosferycznymi.jpg?s=612x612&w=0&k=20&c=E59Q74mJlGb97fArUKwfwqLV56-88APDVNZb9c7QHGs=");
+  background-size: cover;
+}
+.date {
+  font-size: 18px;
+  text-align: center;
+}
+
+.list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-text {
+  font-size: 12px;
+  margin: 20px 20px;
+}
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.degree {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-forecast {
+  margin-top: 30px;
+  text-align: center;
+  color: #000;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
